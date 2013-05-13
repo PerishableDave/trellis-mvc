@@ -1,0 +1,20 @@
+{
+	"name": "Trellis MVC",
+	"preferGlobal": true,
+	"version": "0.1.0",
+	"author": "Dave Peredo <daveperedo@gmail.com>",
+	"description": "MVC framework built upon Express",
+	"bin": {
+		"trellis": "./bin/trellis"
+	},
+	"main": "./lib/trellis-server",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PerishableDave/trellis-mvc"
+	},
+	"dependencies": {
+		"express": "3.2.x",
+		"commander": "1.x.x"
+	},
+	"license": "MIT"
+}
