@@ -1,4 +1,5 @@
-var program = require('commander');
+var program = require('commander')
+	, router = require('router');
 
 program
 	.version('0.0.1');
